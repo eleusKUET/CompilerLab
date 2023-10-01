@@ -1,0 +1,72 @@
+Programming language syntax:
+data types:
+	integer: long long, 
+	number: double, 
+	character: char, 
+	string: string, 
+	binary: bool
+
+	1.must_be_in 1 to 32 character
+
+conditional statement:
+	if (condition) {
+		
+	}
+	else if (condition) {
+
+	}
+	else {
+
+	}
+
+looping structure:
+	for variable_name in iterable_list {
+
+	}
+
+	while (condition) {
+
+	}
+
+functions:
+	function function_name(argument) : return_type {
+
+	}
+
+input:
+	variable_name = read() //word
+	variable_name = readLine() //line input
+
+output:
+	show("args \{variable_name}") // formatted
+	show(args) // just print all arguments data
+
+//statement indicator new_line
+//multiple statement in a single line will use semicolon(;)
+
+//builtin_functions
+show(), read(), readLine(), readInt(), readNumber()
+
+expression:
+	// general expression
+
+operators:
+	arithmetic:
+	+, -, *, /, %
+
+	assignment:
+	=, +=, -=, *=, /=, %=, &=, |=, ^=, <<=, >>=
+
+	comparison:
+	is(==), is not(!=), <, >, <=, >=
+
+	logical operator:
+	or, and, xor
+
+	bitwise :
+	&, |, ^, >>, <<
+
+	inc and dec:
+	++, --
+
+	comma operator
