@@ -1,0 +1,43 @@
+import stdio
+
+integer a, b
+a = 5
+
+string str = "this is a sentence"
+
+if (a is 5) {
+	show("a = 5")
+	if (2 is not 3) {
+		if (4 >= 5) {
+			if (3 < 4) {
+				binary leap_year = 2016
+				if ((leap_year%4 is 0 and leap_year%100 is not 0) or leap_year%400 is 0) {
+					show(leap_year, " is leap year")
+				}
+				else if (leap_year % 7 is 0) {
+					show("lucky 7")
+				}
+				else {
+					show(leap_year, " is not a leap year")
+				}
+			}
+		}
+	}
+}
+else {
+	show("a is unknown")
+}
+
+while (true) {
+	while (1 xor 2) {
+		while (1 or 2) {
+			number num = 2.0e-9
+			for a in range(1, 6, 1) {
+				show(a)
+			}
+		}
+	}
+}
+
+a++; a--;
+++a; --a;
