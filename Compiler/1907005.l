@@ -26,7 +26,7 @@ identifier   		[a-zA-Z_][a-zA-Z_0-9]{0,31}
 datatype   			("integer"|"number"|"character"|"string"|"binary")
 string     			[\"].*[\"]
 integer    			[\+\-]?[0-9]+
-number     			({integer}([\.]{integer})?(e[\+\-]?{integer})|{integer}([\.]{integer}))
+number     			({integer}([\.][0-9]+)?(e{integer})|{integer}([\.][0-9]+))
 binary     			("false"|"true")
 character  			("'\\n'"|[\'][^\n][\'])
 newline        		[\n]
