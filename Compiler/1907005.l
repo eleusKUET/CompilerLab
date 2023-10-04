@@ -268,7 +268,7 @@ int main()
 	// replaceNewlinesWithWhitespace("input.txt");
 	//yyin = freopen("temp", "r", stdin);
 	yyin = freopen("input2.txt", "r", stdin);
-	//yyout = freopen("output.txt", "r", stdout);
+	yyout = freopen("output.txt", "w", stdout);
 	cout << "Evaluation is running...\n";
 	yylex();
 
