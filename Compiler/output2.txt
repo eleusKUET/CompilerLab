@@ -1,1 +1,11 @@
+Evaluation is running...
+okay! all brackets are balanced
+okay! all blocks are balanced
+maximum_nested_depth of your program is : 5
+Total identifiers found: 7
+Total keywords found   : 5
+Total statements found: 47
+no of foor loop: 1
+no of while loop: 3
+no of if condition: 8
 
