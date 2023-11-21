@@ -1,0 +1,72 @@
+imported library: stdio
+imported library: stdlib
+imported library: math
+Called builtin function -> input
+declared -> c: int, value -> 0
+declared -> b: int
+declared -> a: int
+declared -> j: int, value -> 0
+declared -> i: int
+Called builtin function -> output
+Called builtin function -> output
+Called builtin function -> output
+Called builtin function -> output
+parsing else block
+parsing if block
+parsing else if block
+parsing if block
+argument -> n: int
+statement -> return : 1
+parsing if block
+declared -> fact: int, value -> 1
+assignment: i -> 1
+assignment: i -> 2
+assignment: fact -> 1
+parsing for loop
+statement -> return : fact
+function -> factorial: return type -> int
+argument -> m: int
+assignment: i -> 2
+assignment: i -> 3
+statement -> return : false
+parsing if block
+parsing for loop
+statement -> return : true
+function -> isprime: return type -> bool
+argument -> val: string
+Called builtin function -> output
+function -> print: return type -> void
+assignment: i -> 0
+statement -> continue
+Called builtin function -> output
+statement -> break
+parsing if block
+declared -> r: int, value -> 2
+declared -> p: int
+declared -> k: int, value -> 0
+assignment: k -> 1
+assignment: p -> 0
+assignment: r -> 4
+Called builtin function -> output
+statement -> break
+statement -> continue
+parsing for loop
+parsing while loop
+parsing while loop
+comment -> // this is a comment
+comment -> // int a, b, c;
+argument -> second: int
+argument -> first: int
+statement -> return : expression
+function -> add: return type -> int
+called function name -> add
+declared -> ret: int, value -> 2
+called function name -> add
+assignment: ret -> 5
+declared -> leap_year: bool, value -> false
+declared -> year: int, value -> 2016
+comment -> // if ((year % 100) and (year % 4 == 0)) {
+comment -> //    output("leap year");
+comment -> // } logical operation is not working properly :)
+declared -> shujoy: int, value -> -10
+declared -> kundo: int, value -> -10

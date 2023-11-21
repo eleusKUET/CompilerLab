@@ -1,0 +1,20 @@
+declared -> eleus: int
+declared -> data:string, value -> "my name is eleus"
+statement -> break
+statement -> continue
+parsing while loop
+declared -> i: int, value -> 0
+assignment: i -> 1
+statement -> break
+statement -> continue
+Error: variable redeclaration -> eleus
+Error: variable redeclaration -> data
+parsing for loop
+argument -> d: int
+argument -> r: int
+declared -> result: int, value -> 0
+statement -> return : result
+statement -> return : expression
+comment -> //this is a comment
+function -> add: return type -> double
+declared -> a: int

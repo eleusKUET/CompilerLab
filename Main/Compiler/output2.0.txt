@@ -1,0 +1,47 @@
+imported library: stdio
+imported library: stdlib
+declared -> a: int, value -> 5
+declared -> c: int
+declared -> b: int, value -> 3
+Error: variable redeclaration -> a
+declared -> pi: double, value -> 3.234
+declared -> sin: double
+declared -> cos: double
+declared -> name:string, value -> "Eleus"
+declared -> email:string
+declared -> flag: bool
+declared -> ok: bool, value -> true
+declared -> bad: bool, value -> false
+declared -> x: char, value -> 'e'
+declared -> z: char
+declared -> y: char, value -> 'c'
+assignment: x -> 'd'
+assignment: y -> 'c'
+assignment: a -> 3
+assignment: bad -> true
+argument -> b_: double
+argument -> a_: int
+function -> add: return type -> double
+parsing if block
+parsing else block
+parsing else if block
+parsing if block
+declared -> j: int
+assignment: j -> 1
+declared -> i: int, value -> 0
+Error: undeclared function -> f
+assignment: i -> 1
+parsing for loop
+statement -> break
+parsing while loop
+declared -> k: int
+parsing if block
+assignment: k -> 0
+assignment: k -> 1
+Called builtin function -> input
+assignment: k -> 1
+Error: undeclared function -> lcm
+declared -> res: int, value -> 1
+parsing for loop
+parsing while loop
+parsing while loop

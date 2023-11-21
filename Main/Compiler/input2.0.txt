@@ -1,0 +1,63 @@
+import stdio
+import stdlib
+
+int a = 5;
+int a = 5, b = 3, c;
+
+double pi = 3.234;
+double cos, sin;
+
+string name = "Eleus";
+string email;
+
+boolean bad = false, ok = true, flag;
+
+char x = 'e';
+char y = 'c', z;
+
+x = 'd';
+y = 'c', a = 3;
+
+bad = true;
+
+func add(int a_, double b_) : double {
+    
+}
+
+if ((a < b) and (a == b)) {
+    if (true) {
+        
+    }
+}
+else if (true) {
+
+}
+else {
+
+}
+
+int j;
+j = j + 1;
+
+6;
+
+for (int i = 0; i < f(2, 4,"eleus"); i = i + 1) {
+
+}
+
+while (true) {
+    break;
+}
+
+int k;
+
+while(k < 10) {
+    if (k) {
+    }
+    while (k) {
+        for (k = 0; k < i; k = k + 1) {
+            k = input();
+            int res = lcm(2, 3);
+        }
+    }
+}

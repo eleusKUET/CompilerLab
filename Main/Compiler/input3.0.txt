@@ -1,0 +1,79 @@
+import stdio
+import stdlib
+import math
+
+int a, b, c = input();
+int i, j = 0;
+
+if (c % 4 == 0) {
+    output("c is not divisible by 4", c);
+}
+else if (c == 0) {
+    output("c is zero");
+    if (true) {
+        output("true");
+    }
+    else {
+        output("false");
+    }
+}
+
+func factorial(int n) : int {
+    if (n == 0) {
+        return 1;
+    }
+    int fact = 1;
+    for (i = 1; i <= n; i = i + 1) {
+        fact = fact * i;
+    }
+    return fact;
+}
+
+func isprime(int m) : boolean {
+    for (i = 2; i * i <= m; i = i + 1) {
+        if (m % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+func print(string val) : void {
+    output(val);
+}
+
+i = 0;
+while (i < 10) {
+    continue;
+    while (j < n) {
+        if (i == j) {
+            output("i is equal to j");
+            break;
+        }
+        for (int k = 0, p, r = 2; k < a; k = k + 1, p = p - 1, r = r * 2) {
+            output("all is okaaayy\n");
+            break;
+            continue;
+        }
+    }
+}
+
+// this is a comment
+// int a, b, c;
+
+func add(int first, int second):int {
+    return first + second;
+}
+
+int ret = add(3, 5);
+ret = add(a, b);
+
+boolean leap_year = false;
+int year = 2016;
+
+// if ((year % 100) and (year % 4 == 0)) {
+//    output("leap year");
+// } logical operation is not working properly :)
+
+int shujoy = -10;
+int kundo = -shujoy;
